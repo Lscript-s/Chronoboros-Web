@@ -1,0 +1,22 @@
+.topbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #c0392b;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3.75rem;
+  padding: 0 1.5rem;
+}
+
+.title{
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
